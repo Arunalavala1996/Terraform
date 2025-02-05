@@ -1,6 +1,22 @@
 # Ignore all Terraform files
 *.tf
+
+# Ignore Terraform state files
 *.tfstate
 *.tfstate.*
+
+# Ignore backup files
 *.backup
+
+# Ignore Terraform's working directory
 .terraform/
+
+# Ignore override files which are not meant to be committed
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
